@@ -3,43 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Babur Kocaoglu | Research & CV</title>
+    <title>Babur Kocaoglu | Academic Website</title>
     <style>
+        /* General Styling */
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container Box */
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             text-align: center;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        /* Headings */
+        h1 {
+            margin-bottom: 5px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
         }
-        h1 { color: #333; }
-        a { color: #007bff; text-decoration: none; }
+
+        h2 {
+            font-size: 18px;
+            color: #555;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Links */
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        /* Contact Links */
+        .contact a {
+            display: block;
+            margin-top: 10px;
+            font-size: 15px;
+            color: #007bff;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Babur Kocaoglu</h1>
-        <p><strong>Interested fields: Econometrics, Macroeconomics, Monetary Policy</strong></p>
+        <h2>Econometrics | Macroeconomics | Monetary Policy</h2>
 
-        <h2>About Me</h2>
-        <p>Welcome to my academic page. I am a Research Analyst in Macroeconomic and Quantitative Studies at the Federal Reserve Board, focusing on Bayesian Econometrics and DSGE modeling.</p>
+        <p>Welcome to my academic website. I am a Research Analyst in Macroeconomic and Quantitative Studies at the Federal Reserve Board, focusing on Bayesian Econometrics and DSGE modeling.</p>
 
         <h2>CV & Research</h2>
         <p><a href="cv.pdf" target="_blank">Download My CV (PDF)</a></p>
         <p><a href="research.html">Research Papers</a></p>
 
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:baburkocaoglu.econ@gmail.com">baburkocaoglu.econ@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/babur-kocaoglu" target="_blank">@babur-kocaoglu</a></p>
-        <p><a href="https://scholar.google.com/citations?user=uUSeGMEAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+        <p class="contact">
+            <a href="mailto:baburkocaoglu.econ@gmail.com">📩 baburkocaoglu.econ@gmail.com</a>
+            <a href="https://github.com/babur-kocaoglu" target="_blank">💻 GitHub: @babur-kocaoglu</a>
+            <a href="https://scholar.google.com" target="_blank">📖 Google Scholar</a>
+        </p>
     </div>
 </body>
 </html>
